@@ -22,5 +22,21 @@ class MyApp extends StatelessWidget {
 }
 
 
+void main1() {
+
+  for (int i = 0; i < 5; i++) {
+    print('hello ${i + 1}');
+  }
+}
 
 
+
+// Write Code snippet:-
+// Array :- [1,2,3,4,5,6,7]
+// Task:- Take 3 variables named
+// a) White flag
+// b) Red Flag 1.
+// c) Red Flag 2.
+// Assign their index value from the array randomly.
+// Write a code to find out which Red Flag is closer to White Flag.
+// Return value or index of Nearest Red Flag.
